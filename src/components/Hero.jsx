@@ -2,8 +2,16 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {
+    const [text] = useTypewriter({
+        words: ['Web Devloper', 'Competitive programmer'],
+        loop: {},
+        typeSpeed: 120,
+        delaySpeed: 80,
+    })
+
   return (
     <section className='relative w-full h-screen mx-auto'>
         <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -20,8 +28,9 @@ const Hero = () => {
                     </span>
                 </h1>
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                    I develope 3D visuals, user 
-                    <br className='sm:block hidden'/> interfaces and web applications
+                    I am a
+                    <span className='text-[#915eff] font-medium'> {text}</span>
+                    <span><Cursor cursorStyle='.'/></span>
                 </p>
             </div>
         </div>
