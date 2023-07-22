@@ -24,6 +24,12 @@ import {
     tripguide,
     threejs,
     cpp,
+    jnv,
+    svnit,
+    gayatri,
+    ecart,
+    keeper,
+    resto,
   } from "../assets";
   
   export const navLinks = [
@@ -121,6 +127,42 @@ import {
     //   icon: docker,
     // },
   ];
+
+  const educations = [
+    {
+      title: "Bachelor of Technology",
+      institute_name: "SVNIT, Surat",
+      icon: svnit,
+      iconBg: "#383E56",
+      date: "November 2020 - May 2024",
+      points: [
+        "B.Tech in Electrical Engineering",
+        "CGPA: 7.13"
+      ],
+    },
+    {
+      title: "Class - XII ",
+      institute_name: "Shree Gayatri Vidhyalaya, Ahmedabad",
+      icon: gayatri,
+      iconBg: "#E6DEDD",
+      date: "April 2020",
+      points: [
+        "Gujarat Secondary and Higher Secondary Education Board(GSEB)",
+        "Grade: 52.3%",
+      ],
+    },
+    {
+      title: "Class - X",
+      institute_name: "JNV, Rajkot",
+      icon: jnv,
+      iconBg: "#383E56",
+      date: "April 2018",
+      points: [
+        "Central Board of Secondary Education(CBSE)",
+        "Grade: 84.5%",
+      ],
+    },
+  ]
   
   const experiences = [
     {
@@ -206,9 +248,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E - Cart",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, purchase, and manage products from various providers, providing a convenient solution for user needs.",
       tags: [
         {
           name: "react",
@@ -219,55 +261,47 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "node",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecart,
+      source_code_link: "https://github.com/parthpatel021/E-Cart",
     },
     {
-      name: "Job IT",
+      name: "Resto.",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-application that allows users to search, order, and manage Dishes from restaurants, providing a convenient and efficient solution for food needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: resto,
+      source_code_link: "https://github.com/parthpatel021/Resto",
     },
     {
-      name: "Trip Guide",
+      name: "Keeper",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive note storing platform that allows users to keep their ideas, and Store ideas and notes in a structured way in the form of React components.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "material-UI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: keeper,
+      source_code_link: "https://github.com/parthpatel021/Keeper",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, educations, experiences, testimonials, projects };

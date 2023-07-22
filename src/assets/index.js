@@ -31,16 +31,26 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import jnv from "./eduction/jnv.png";
+import gayatri from "./eduction/gayatri.png";
+import svnit from "./eduction/svnit.png";
+
+import ecart from "./projects/ecart.png";
+import keeper from "./projects/keeper.png";
+import parth from "./projects/parth.png";
+import resto from "./projects/resto.png";
+
 export {
   logo,
   backend,
   creator,
   mobile,
   web,
-  github,
   menu,
   close,
+  // skills
   css,
+  github,
   docker,
   figma,
   git,
@@ -53,12 +63,24 @@ export {
   tailwind,
   typescript,
   threejs,
+  cpp,
+  //company
   meta,
   shopify,
   starbucks,
   tesla,
+
   carrent,
   jobit,
   tripguide,
-  cpp,
+  // Education
+  jnv,
+  gayatri,
+  svnit,
+
+  // Projects
+  ecart,
+  keeper,
+  parth,
+  resto,
 };

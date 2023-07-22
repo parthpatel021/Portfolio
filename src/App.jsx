@@ -4,6 +4,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Education from "./components/Education";
 
 
 const App = () => {
@@ -16,10 +17,11 @@ const App = () => {
                 <Hero/>
             </div>
             <About />
-            <Experience />
+            {/* <Experience /> */}
+            <Education />
             <Tech/>
             <Works/>
-            <Feedbacks/>
+            {/* <Feedbacks/> */}
             <div className="relative z-0">
                 <Contact/>
                 <StarsCanvas/>
