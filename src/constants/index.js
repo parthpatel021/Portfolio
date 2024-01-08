@@ -30,6 +30,7 @@ import {
     ecart,
     keeper,
     resto,
+    bettelfield,
   } from "../assets";
   
   export const navLinks = [
@@ -49,19 +50,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Competitive programmer",
+      title: "Student",
       icon: creator,
     },
   ];
@@ -267,7 +268,48 @@ import {
       ],
       image: ecart,
       source_code_link: "https://github.com/parthpatel021/E-Cart",
+      live_link: "https://gorgeous-crow-gown.cyclic.app/",
     },
+    {
+      name: "Battlefield - Soldier Page",
+      description:
+        "An all-encompassing web application meticulously crafted to furnish players with an intricate analysis of their in-game performance.",
+      tags: [
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bettelfield,
+      source_code_link: "https://github.com/parthpatel021/Battlefield",
+      live_link: "https://battlefield-n6ps.onrender.com/",
+    },
+    // {
+    //   name: "Zevi",
+    //   description:
+    //     "An all-encompassing web application meticulously crafted to furnish players with an intricate analysis of their in-game performance.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: bettelfield,
+    //   source_code_link: "https://github.com/parthpatel021/Zevi",
+    //   live_link: "https://zevi-etnx.onrender.com/",
+    // },
     {
       name: "Resto.",
       description:
@@ -284,24 +326,25 @@ import {
       ],
       image: resto,
       source_code_link: "https://github.com/parthpatel021/Resto",
+      live_link: "https://resto-parthpatel021.onrender.com/",
     },
-    {
-      name: "Keeper",
-      description:
-        "A comprehensive note storing platform that allows users to keep their ideas, and Store ideas and notes in a structured way in the form of React components.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "material-UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: keeper,
-      source_code_link: "https://github.com/parthpatel021/Keeper",
-    },
+    // {
+    //   name: "Keeper",
+    //   description:
+    //     "A comprehensive note storing platform that allows users to keep their ideas, and Store ideas and notes in a structured way in the form of React components.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "material-UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: keeper,
+    //   source_code_link: "https://github.com/parthpatel021/Keeper",
+    // },
   ];
   
   export { services, technologies, educations, experiences, testimonials, projects };

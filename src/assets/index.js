@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -39,6 +40,7 @@ import ecart from "./projects/ecart.png";
 import keeper from "./projects/keeper.png";
 import parth from "./projects/parth.png";
 import resto from "./projects/resto.png";
+import bettelfield from "./projects/battlefield.png";
 
 export {
   logo,
@@ -51,6 +53,7 @@ export {
   // skills
   css,
   github,
+  live,
   docker,
   figma,
   git,
@@ -83,4 +86,5 @@ export {
   keeper,
   parth,
   resto,
+  bettelfield
 };
